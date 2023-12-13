@@ -1,0 +1,24 @@
+@keyframes customAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+  
+  .animate-custom {
+    animation: customAnimation 2s infinite;
+  }
+
+ h1 span  {
+    
+    animation: slideRight 10s ease forwards;
+  }
+  @keyframes slideRight{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}  
