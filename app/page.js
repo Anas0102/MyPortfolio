@@ -88,11 +88,11 @@ export default function Home() {
           <Image class="h-8 w-auto " src={logo} alt="My  Logo"/>
         </div>
         <div class="hidden sm:ml-15 sm:block">
-          <div class="flex space-x-8 space-y-1">
-          <a onClick={() => scrollToSection('home')} className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" >Home</a>
-          <a onClick={() => scrollToSection('parcours')} className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Parcours Universitaire</a>
-          <a onClick={()=>scrollToSection('experience')} className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium  whitespace-nowrap" >Expérience Professionnelle</a>
-          <a onClick={() => scrollToSection('competence')} className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Compétences informatiques</a>
+          <div class="flex space-x-9 ">
+          <a onClick={() => scrollToSection('home')} className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-base font-medium" >Home</a>
+          <a onClick={() => scrollToSection('parcours')} className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-base font-medium">Parcours Universitaire</a>
+          <a onClick={()=>scrollToSection('experience')} className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-base font-medium  whitespace-nowrap" >Expérience Professionnelle</a>
+          <a onClick={() => scrollToSection('competence')} className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-base font-medium">Compétences informatiques</a>
 
             
            
@@ -497,27 +497,7 @@ export default function Home() {
                 </p>
 
                 <div className="py-10 px-32 mt-6 flex justify-center gap-4 lg:justify-start">
-                  <a
-                    className="text-gray-700 transition hover:text-gray-700/75"
-                    href=""
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span className="sr-only"> Facebook </span>
-
-                    <svg
-                      className="h-6 w-10"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                      aria-hidden="true"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                        clip-rule="evenodd"
-                      />
-                    </svg>
-                  </a>
+                  
 
                   <a
                     className="text-gray-700 transition hover:text-gray-700/75"
