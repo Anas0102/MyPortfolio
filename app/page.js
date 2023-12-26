@@ -107,9 +107,9 @@ export default function Home() {
           <div>
           <a
                   className='font-bold bg-gradient-to-r from-cyan-700 to-teal-500 px-3 py-3 rounded-md -mr-7 flex items-center hover:bg-gradient-to-r hover:from-cyan-600 hover:to-teal-400'
-                  href= "data/CV1.pdf"
+                  href= "data/CV2.pdf"
                   target="_blank"
-                  download="CV1.pdf"
+                  download="CV2.pdf"
                   rel="noopener noreferrer">
                   <span className="mr-2">
                     <GrInstallOption />
