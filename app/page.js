@@ -107,9 +107,9 @@ export default function Home() {
           <div>
           <a
                   className='font-bold bg-gradient-to-r from-cyan-700 to-teal-500 px-3 py-3 rounded-md -mr-7 flex items-center hover:bg-gradient-to-r hover:from-cyan-600 hover:to-teal-400'
-                  href= "data/CV.pdf"
+                  href= "data/CV1.pdf"
                   target="_blank"
-                  download="CV.pdf"
+                  download="CV1.pdf"
                   rel="noopener noreferrer">
                   <span className="mr-2">
                     <GrInstallOption />
@@ -488,7 +488,7 @@ export default function Home() {
           <div class="mx-auto max-w-screen-2xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
 
 
-            <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
+            <div className="mt-16 grid grid-cols-1 gap-4 lg:grid-cols-1 lg:gap-82">
               <div className="mx-auto max-w-sm lg:max-w-none">
                 <p className="mt-4 text-center text-gray-500 lg:text-left lg:text-lg">
                   📬 Connect with me! Whether you have questions, want to discuss a project, or just want to say hello,
@@ -496,7 +496,7 @@ export default function Home() {
                   Feel free to reach out through any of the following channels. Let's stay connected! 🚀✨
                 </p>
 
-                <div className="py-10 px-32 mt-6 flex justify-center gap-4 lg:justify-start">
+                <div className="py-10 px-32 mt-6 ml-96 flex justify-center gap-4 lg:justify-start">
                   
 
                   <a
@@ -548,128 +548,8 @@ export default function Home() {
 
                 </div>
               </div>
-
-              <div
-                className="grid grid-cols-1 gap-8 text-center lg:grid-cols-3 lg:text-left"
-              >
-                <div>
-                  <strong className="font-medium text-gray-900"> Services </strong>
-
-                  <ul className="mt-6 space-y-1">
-                    <li>
-                      <a
-                        className="text-gray-700 transition hover:text-gray-700/75"
-                        href="/"
-                      >
-                        Marketing
-                      </a>
-                    </li>
-
-                    <li>
-                      <a
-                        className="text-gray-700 transition hover:text-gray-700/75"
-                        href="/"
-                      >
-                        Graphic Design
-                      </a>
-                    </li>
-
-                    <li>
-                      <a
-                        className="text-gray-700 transition hover:text-gray-700/75"
-                        href="/"
-                      >
-                        App Development
-                      </a>
-                    </li>
-
-                    <li>
-                      <a
-                        className="text-gray-700 transition hover:text-gray-700/75"
-                        href="/"
-                      >
-                        Web Development
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-
-                <div>
-                  <strong className="font-medium text-gray-900"> About </strong>
-
-                  <ul className="mt-6 space-y-1">
-                    <li>
-                      <a
-                        className="text-gray-700 transition hover:text-gray-700/75"
-                        href="/"
-                      >
-                        About
-                      </a>
-                    </li>
-
-                    <li>
-                      <a
-                        className="text-gray-700 transition hover:text-gray-700/75"
-                        href="/"
-                      >
-                        Careers
-                      </a>
-                    </li>
-
-                    <li>
-                      <a
-                        className="text-gray-700 transition hover:text-gray-700/75"
-                        href="/"
-                      >
-                        History
-                      </a>
-                    </li>
-
-                    <li>
-                      <a
-                        className="text-gray-700 transition hover:text-gray-700/75"
-                        href="/"
-                      >
-                        Our Team
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-
-                <div>
-                  <strong className="font-medium text-gray-900"> Support </strong>
-
-                  <ul className="mt-6 space-y-1">
-                    <li>
-                      <a
-                        className="text-gray-700 transition hover:text-gray-700/75"
-                        href="/"
-                      >
-                        FAQs
-                      </a>
-                    </li>
-
-                    <li>
-                      <a
-                        className="text-gray-700 transition hover:text-gray-700/75"
-                        href="/"
-                      >
-                        Contact
-                      </a>
-                    </li>
-
-                    <li>
-                      <a
-                        className="text-gray-700 transition hover:text-gray-700/75"
-                        href="/"
-                      >
-                        Live Chat
-                      </a>
-                    </li>
-                  </ul>
-                </div>
               </div>
-            </div>
+             
 
             <div className="mt-16 border-t border-gray-100 pt-8">
               <p className="text-center text-xs/relaxed text-gray-500">
